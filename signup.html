@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Landing Page" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+    <link href="style/signup.css" type="text/css" rel="stylesheet" />
+    <title>SignUp - Landing Page</title>
+  </head>
+  <body>
+    <div class="header">
+      <div><h2>Landing Page</h2></div>
+      <a href="index.html" class="login">Login</a>
+    </div>
+    <div class="form">
+      <form class="signup-form">
+        <p style="text-align: center">Enter Details</p>
+        <input type="text" placeholder="First Name" id="first-name" />
+        <input type="text" placeholder="Last Name" id="last-name" />
+        <input type="email" placeholder="Enter Email Address" id="email" />
+        <input type="number" placeholder="Enter Phone No." id="phone" />
+        <div class="date-of-birth">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" name="dob" id="dob" value="2001-01-01" />
+        </div>
+        <div class="gender">
+          <label for="gender">Gender:</label>
+          <select name="gender" id="gender">
+            <option value="na">--Select Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+        <input type="password" placeholder="Enter Password" id="password" />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          id="confirm-password"
+        />
+        <input type="submit" value="Sign Up" />
+        <p>Already have an account? <a href="index.html">Login Here</a></p>
+      </form>
+    </div>
+  </body>
+</html>
